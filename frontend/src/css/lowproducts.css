@@ -1,0 +1,108 @@
+.low-stock-box {
+    width: 520px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 22px 26px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    margin-top:200px;
+    height: 450px;
+
+}
+
+.low-stock-box h3 {
+    margin: 0 0 18px;
+    font-size: 18px;
+}
+
+.low-stock-row {
+    display: grid;
+    grid-template-columns: 1.8fr 0.8fr 0.8fr;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.low-stock-row:last-child {
+    border-bottom: none;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.product-icon {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.product-code {
+    margin: 3px 0 0;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.stock-text {
+    color: #475569;
+    font-size: 14px;
+}
+
+.stock-badge {
+    justify-self: end;
+    padding: 7px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.stock-badge.critical {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+.stock-badge.low {
+    background-color: #ffedd5;
+    color: #f97316;
+}
+.dashboard-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}.pagination {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 8px;
+     margin-top: 18px;
+ }
+
+.pagination button {
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    color: #475569;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #e0e7ff;
+    color: #4f46e5;
+}
+
+.pagination button.active-page {
+    background-color: #4f46e5;
+    color: white;
+}

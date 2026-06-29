@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    min-width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.cube{
+    color: #2b2baf;
+    font-size: 50px;
+}
+.allcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 200px;
+}
+.alert{
+    color: red;
+    font-size: 50px;
+}
+.alertcont{
+    background-color: #fee2e2;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.p1{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #4646d6;
+}
+.p2{
+    margin-top: 10px;
+    font-size: 30px;
+    color:red
+}
+.p3{
+    margin-top: 10px;
+    font-size: 30px;
+    color: green;
+}
+.stock{
+    font-size: 15px;
+    color:gray
+}
+.cubecont{
+    background-color: #aaaaff;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.allproduct{
+    font-size: 15px;
+    color:gray
+}
+.price{
+    font-size: 15px;
+    color:gray
+}
+.money{
+    color: green;
+    font-size: 50px;
+}
+.moneycont{
+    background-color: #9cf49c;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+

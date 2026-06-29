@@ -1,0 +1,263 @@
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color:white;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+hr{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.notification {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.urunler{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.avatar{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 60px;
+    margin-top:200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.dateinput{
+     width: 170px;
+     height: 30px;
+     border: 1px solid gray;
+     border-radius: 5px;
+     padding-left: 10px;
+ }
+
+.productinput{
+    width: 170px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+.add-product{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4f46e5;
+    color: white;
+    padding: 10px;
+    margin-right: 200px;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 22px;
+    margin-top: 20px;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+    border: 1px solid #eef2f7;
+}
+
+
+
+
+
+.product-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+        padding: 30px 60px 0 60px;
+
+}
+
+.product-table thead tr {
+    background: #f8fafc;
+}
+
+.product-table th {
+    text-align: left;
+    font-size: 12px;
+    color: #64748b;
+    padding: 14px 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-table th:first-child {
+    border-radius: 14px 0 0 14px;
+}
+
+.product-table th:last-child {
+    border-radius: 0 14px 14px 0;
+}
+
+.product-table tbody tr {
+    background: #ffffff;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+    transition: 0.2s;
+}
+
+
+
+.product-table td {
+    font-size: 14px;
+    padding: 16px;
+    color: #0f172a;
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.product-table td:first-child {
+    border-left: 1px solid #f1f5f9;
+    border-radius: 16px 0 0 16px;
+    font-weight: 700;
+}
+
+.product-table td:last-child {
+    border-right: 1px solid #f1f5f9;
+    border-radius: 0 16px 16px 0;
+}
+
+.status {
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.status.green {
+    background: #ecfdf5;
+    color: #059669;
+}
+
+.status.yellow {
+    background: #fffbeb;
+    color: #d97706;
+}
+
+.status.red {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.table-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-icons svg {
+    width: 31px;
+    height: 31px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #f8fafc;
+    color: #64748b;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.table-icons .delete-icon {
+    color: #ef4444;
+}
+
+.addname{
+    border: 1px solid black;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border-radius:5px ;
+    padding-left: 10px;
+}
+.addcode{
+    border: 1px solid black;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border-radius:5px ;
+    padding-left: 10px;
+}
+.addcategory{
+    border: 1px solid black;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border-radius:5px ;
+    padding-left: 10px;
+}
+.addstock{
+    border: 1px solid black;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border-radius:5px ;
+    padding-left: 10px;
+}
+.addprice{
+    border: 1px solid black;
+    width: 170px;
+    height: 25px;
+    outline: none;
+    border-radius:5px ;
+    padding-left: 10px;
+}
+
+.addcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 100px;
+    row-gap: 50px;
+
+}
+.addbutton{
+
+    width: 130px;
+    height: 30px;
+    background-color: #4f46e5;
+border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+.buttons{
+    display: flex;
+    margin-top: auto;
+gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50px
+
+}
+.closebtn{
+    width: 130px;
+    height: 30px;
+    background-color: #4f46e5;
+border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
