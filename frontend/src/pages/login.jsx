@@ -13,9 +13,9 @@ const Login = () => {
 
     const login = async () => {
         setErrorMessage("");
-
+        const API_URL = `${import.meta.env.VITE_API_URL}/users`
         try {
-            const response =  await axios.post("http://localhost:3000/users/login", {
+            const response =  await axios.post(`${API_URL}/login`, {
                 name: name.trim(),
                 password: password,
             })

@@ -1,7 +1,7 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "axios";
 
-const url = "http://localhost:3000/movements/"
+const url = `${import.meta.env.VITE_API_URL}/movements/`
 const getToken = () => {
     return localStorage.getItem("token")
 }

@@ -12,9 +12,10 @@ const Register = () => {
     const [message,setMessage] = useState("");
     const register = async () => {
 
+        const API_URL = `${import.meta.env.VITE_API_URL}/users`
        try {
 
-        const response = await axios.post("http://localhost:3000/users/register", {
+        const response = await axios.post(`${API_URL}/register`, {
            name: name.trim(),
            password: password,
         })
